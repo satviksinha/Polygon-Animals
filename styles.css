@@ -1,0 +1,115 @@
+body{
+    background:rgb(59, 58, 74);
+}
+.wrapper{
+    display:flex;
+}
+.container{
+    width:10%;
+    height:18vh;
+    background:rgba(214, 65, 39,0.7);
+   /* position:relative;
+    left:35%;*/
+    clip-path: polygon(20% 10%, 80% 0%, 100% 100%, 0% 100%);
+    transform: rotateZ(-90deg);
+}
+.container2{
+    width:10%;
+    height:18vh;
+    background:rgba(214, 65, 39);
+   /* position:relative;
+    left:35%;*/
+    position:relative;
+    left:-1.34vw;
+    clip-path: polygon(20% 0%, 80% 10%, 100% 100%, 0% 100%);
+    transform: rotateZ(90deg);
+}
+.wrapper2{
+    display:flex;
+}
+.container3{
+    width:7.7%;
+    height:10vh;
+    position:relative;
+    left:1.5vw;
+    top:-2.8vh;
+    background:rgba(214, 65, 39);
+    clip-path: polygon(0% 0%, 50% 100%, 100% 41%);
+}
+.container4{
+    width:7.95%;
+    height:10vh;
+    position:relative;
+    left:1.5vw;
+    top:-2.8vh;
+    background:rgba(214, 65, 39,0.7);
+    clip-path: polygon(0% 41%, 50% 100%, 100% 0%);
+}
+.wrapper3{
+    display:flex;
+}
+.container5{
+    width:8.5%;
+    height:15vh;
+    background:rgba(214, 65, 39,0.5);
+    clip-path: polygon(3% 41%,50% 100%, 50% 0%);
+    position:relative;
+    top:-9vh;
+    left:5vw;
+}
+.container6{
+    width:8.6%;
+    height:14.5vh;
+    background:rgba(214, 65, 39,0.6);
+    clip-path: polygon(5% 60%,50% 100%, 50% 0%);
+    transform:rotateZ(180deg);
+    position:relative;
+    top:-8.56vh;
+    left:-3.45vw;
+}
+.wrapper4{
+    display:flex;
+}
+.triangle1{
+    width:6%;
+    height:12vh;
+    background:rgba(214, 65, 39,0.6);
+    clip-path: polygon(0% 0%, 50% 100%, 100% 87.6%);
+    position:relative;
+    top:5.8vh;
+    left:2vw;
+}
+.triangle2{
+    width:6%;
+    height:12vh;
+    background:rgba(214, 65, 39,0.6);
+    clip-path: polygon(0% 0%, 50% 100%, 100% 87.4%);
+    position:relative;
+    top:5.8vh;
+    left:4.5vw;
+    transform: rotateY(180deg);
+}
+.wrapper5{
+    display:flex;
+}
+.triangle3{
+    width:3%;
+    height:5vh;
+    background:rgba(214, 65, 39,0.3);
+    clip-path:polygon(0% 100%, 70% 0%, 100% 68%);
+    position:relative;
+    top:2.3vh;
+    left:1.99vw;
+}
+.triangle4{
+    width:3%;
+    height:5vh;
+    background:rgba(214, 65, 39,0.3);
+    clip-path:polygon(0% 100%, 70% 0%, 100% 68%);
+    position:relative;
+    top:2.3vh;
+    left:1.99vw;
+    transform: rotateY(180deg);
+    position: relative;
+    left:10.5vw;
+}
