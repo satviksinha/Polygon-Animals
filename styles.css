@@ -1,6 +1,12 @@
 body{
     background:rgb(59, 58, 74);
 }
+html, body {
+    max-width: 100%;
+    max-height:100%;
+    overflow-x: hidden;
+    overflow-y:hidden;
+}
 .wrapper{
     display:flex;
 }
@@ -32,9 +38,9 @@ body{
     height:10vh;
     position:relative;
     left:1.5vw;
-    top:-2.8vh;
+    top:-2.85vh;
     background:rgba(214, 65, 39);
-    clip-path: polygon(0% 0%, 50% 100%, 100% 41%);
+    clip-path: polygon(0% 0%, 50% 100%, 100% 40.7%);
 }
 .container4{
     width:7.95%;
@@ -55,7 +61,7 @@ body{
     clip-path: polygon(3% 41%,50% 100%, 50% 0%);
     position:relative;
     top:-9vh;
-    left:5vw;
+    left:5.1vw;
 }
 .container6{
     width:8.6%;
@@ -65,7 +71,7 @@ body{
     transform:rotateZ(180deg);
     position:relative;
     top:-8.56vh;
-    left:-3.45vw;
+    left:-3.35vw;
 }
 .wrapper4{
     display:flex;
@@ -76,7 +82,7 @@ body{
     background:rgba(214, 65, 39,0.6);
     clip-path: polygon(0% 0%, 50% 100%, 100% 87.6%);
     position:relative;
-    top:5.8vh;
+    top:5.88vh;
     left:2vw;
 }
 .triangle2{
@@ -86,7 +92,7 @@ body{
     clip-path: polygon(0% 0%, 50% 100%, 100% 87.4%);
     position:relative;
     top:5.8vh;
-    left:4.5vw;
+    left:4.4vw;
     transform: rotateY(180deg);
 }
 .wrapper5{
@@ -95,21 +101,356 @@ body{
 .triangle3{
     width:3%;
     height:5vh;
-    background:rgba(214, 65, 39,0.3);
+    background:rgba(214, 65, 39,0.4);
     clip-path:polygon(0% 100%, 70% 0%, 100% 68%);
     position:relative;
-    top:2.3vh;
+    top:2.35vh;
     left:1.99vw;
 }
 .triangle4{
     width:3%;
     height:5vh;
-    background:rgba(214, 65, 39,0.3);
+    background:rgba(214, 65, 39,0.4);
     clip-path:polygon(0% 100%, 70% 0%, 100% 68%);
     position:relative;
     top:2.3vh;
-    left:1.99vw;
     transform: rotateY(180deg);
     position: relative;
-    left:10.5vw;
+    left:10.2vw;
+}
+.wrapper6{
+    display:flex;
+}
+.polygon1{
+    width:3%;
+    height:11vh;
+    background:rgba(214, 65, 39,0.8);
+    clip-path: polygon(0% 100%, 23% 0%, 74% 56%);
+    position:relative;
+    top:-51.7vh;
+    left:2vw;
+}
+.polygon2{
+    width:3%;
+    height:11vh;
+    background:rgba(214, 65, 39);
+    clip-path: polygon(0% 100%, 23% 0%, 74% 56%);
+    position:relative;
+    top:-51.7vh;
+    left:10.3vw;
+    transform:rotateY(180deg);
+}
+.yellow1{
+    width:17%;
+    height:20vh;
+    background:rgb(235, 230, 192);
+    clip-path: polygon(26% 15%,50% 0%,75% 94%);
+    position: relative;
+    top:-38.6vh;
+    left:-6.8vw;
+}
+.yellow2{
+    width:17%;
+    height:20vh;
+    background:rgb(235, 230, 192);
+    clip-path: polygon(26% 15%,50% 0%,75% 94%);
+    position: relative;
+    top:-59vh;
+    left:8.4vw;
+    transform:rotateY(180deg);
+}
+.animal{
+    position: relative;
+    left:5%;
+}
+.wrapper8{
+    display:flex;
+}
+.yellow3{
+    width:7%;
+    height:17vh;
+    background:rgba(235, 230, 192,0.8);
+    clip-path: polygon(20% 93%,67% 0%, 81% 75%);
+    position: relative;
+    top:-91.3vh;
+    left:-4vw;
+}
+.yellow4{
+    width:7%;
+    height:17vh;
+    background:rgba(235, 230, 192,0.8);
+    clip-path: polygon(20% 93%,67% 3%, 81% 75%);
+    position: relative;
+    top:-91.6vh;
+    left:8.5vw;
+    transform:rotateY(180deg);
+}
+.wrapper9{
+    display:flex;
+}
+.yellow5{
+    width:10%;
+    height:25vh;
+    background:rgba(235, 230, 192,0.8);
+    clip-path: polygon(0% 0%, 55% 100%, 77.6% 76%);
+    position: relative;
+    top:-96vh;
+    left:1.4vw;
+}
+.yellow6{
+    width:10%;
+    height:25vh;
+    background:rgba(235, 230, 192,0.8);
+    clip-path: polygon(0% 0%, 55% 100%, 77.6% 76%);
+    position: relative;
+    top:-96vh;
+    left:-2.8vw;
+    transform: rotateY(180deg);
+}
+.black{
+    width:5%;
+    height:10vh;
+    background: black;
+    clip-path: polygon(8% 68%,50% 0%, 100% 68%);
+    position:relative;
+    top:-102.5vh;
+    left:6.5vw;
+}
+.red{
+    width:2%;
+    height:3vh;
+    background:rgba(214, 65, 39,0.7);
+    clip-path: polygon(0% 0%,50% 100%,100% 0%);
+    position: relative;
+    top:-106vh;
+    left:8.05vw;
+}
+.animal2{
+    position:relative;;
+    top:-120vh;
+    left:50vw;
+}
+.wrap1{
+    display:flex;
+}
+.shape1{
+    width:20%;
+    height:30vh;
+    background:rgb(122, 121, 118,0.7);
+    clip-path:polygon(5% 75%, 15% 30%,60% 10%,60% 50%, 25% 50%);
+    position:relative;
+    top:-30vh;
+}
+.shape2{
+    width:20%;
+    height:30vh;
+    background:rgba(122, 121, 118);
+    clip-path:polygon(5% 75%, 15% 30%,60% 10%,60% 50%, 25% 50%);
+    position:relative;
+    top:-30vh;
+    left:-15.8vw;
+    transform:rotateY(180deg);
+}
+.wrap2{
+    display:flex;
+}
+.shape3{
+    width:7%;
+    height:8vh;
+    background:rgba(122,121,118,0.3);
+    clip-path: polygon(0% 0%,52% 100%,100% 0%);
+    position:relative;
+    top:-44.8vh;
+    left:4.6vw;
+}
+.shape4{
+    width:7%;
+    height:8vh;
+    background:rgba(122,121,118,0.3);
+    clip-path: polygon(0% 0%,52% 105%,100% 0%);
+    position:relative;
+    top:-45vh;
+    left:5vw;
+}
+.wrap3{
+    display:flex;
+}
+.shape5{
+    width:8%;
+    height:8vh;
+    background:rgba(122,121,118,0.8);
+    clip-path: polygon(5% 0%,54% 85%,100% 0%);
+    position:relative;
+    top:-48.5vh;
+    left:2.9vw;
+    transform: rotateZ(-90deg);
+}
+.shape6{
+    width:9%;
+    height:8vh;
+    background:rgba(122,121,118,0.8);
+    clip-path: polygon(5% 0%,54% 89%,100% 0%);
+    position:relative;
+    top:-50vh;
+    left:4.4vw;
+    transform: rotateZ(90deg);
+}
+.erect{
+    width:10%;
+    height:10vh;
+    background:rgb(207, 204, 196);
+    clip-path: polygon(25% 80%, 47.6% 2%, 70% 80%);
+    position:relative;
+    top:-61vh;
+    left:7vw;
+}
+.inverted{
+    width:10%;
+    height:6vh;
+    background:black;
+    clip-path: polygon(25% 0%, 46% 100%,70% 0%);
+    position:relative;
+    top:-63vh;
+    left:7vw;
+}
+.wrap4{
+    display:flex;
+}
+.obtuse1{
+    width:7%;
+    height:16vh;
+    background:rgba(207, 204, 196,0.7);
+    clip-path: polygon(0% 100%,100% 0%,70% 50%);
+    position:relative;
+    top:-77vh;
+    left:4.8vw;
+}
+.obtuse2{
+    width:7%;
+    height:16vh;
+    background:rgba(207, 204, 196,0.7);
+    clip-path: polygon(0% 100%,101% 0%,70% 50%);
+    position:relative;
+    top:-77.3vh;
+    left:4.8vw;
+    transform: rotateY(180deg);
+}
+.wrap5{
+    display:flex;
+}
+.quad1{
+    width:10%;
+    height:15vh;
+    background:rgba(207, 204, 196);
+    clip-path: polygon( 60% 80%,33% 53%,80% 0% , 100% 40%);
+    position:relative;
+    top:-85vh;
+    left:1.65vw;
+}
+.quad2{
+    width:10%;
+    height:15vh;
+    background:rgba(207, 204, 196);
+    clip-path: polygon( 60% 80%,27% 53%,75% 0% , 100% 40%);
+    position:relative;
+    top:-85vh;
+    left:1.65vw;
+    transform: rotateY(180deg);
+}
+.pentagon{
+    width:8%;
+    height:15vh;
+    background:rgba(207,204,196,0.8);
+    clip-path: polygon(50% 0%, 100% 38%, 82% 70%, 18% 70%, 0% 38%);
+    position:relative;
+    top:-94vh;
+    left:7.5vw;
+}
+.wrap6{
+    display:flex;
+}
+.weird1{
+    width:10%;
+    height:25vh;
+    background:rgba(207, 204, 196,0.8);
+    clip-path: polygon(0% 45%, 60% 0%,60% 63%,90% 82%);
+    position: relative;
+    top:-123vh;
+    left:-0.9vw;
+}
+.weird2{
+    width:10%;
+    height:25vh;
+    background:rgba(207, 204, 196,0.8);
+    clip-path: polygon(0% 45%, 60% 0%,60% 63%,95% 82%);
+    position: relative;
+    top:-123vh;
+    left:4.85vw;
+    transform:rotateY(180deg);
+}
+.wrap7{
+    display:flex;
+}
+.top1{
+    width:6%;
+    height:12vh;
+    background:rgba(207, 204, 196);
+    clip-path: polygon(0% 0%, 50% 100%, 100% 86%);
+    position:relative;
+    top:-169.3vh;
+    left:4.5vw;
+}
+.top2{
+    width:6%;
+    height:12vh;
+    background:rgba(207, 204, 196);
+    clip-path: polygon(0% 0%, 50% 100%, 100% 85%);
+    position:relative;
+    top:-169.3vh;
+    left:7vw;
+    transform:rotateY(180deg);
+}
+.wrap8{
+    display:flex;
+}
+.top3{
+    width:6%;
+    height:15vh;
+    background:rgba(122,121,118,0.3);
+    clip-path: polygon(23% 80%, 65% 0%,100% 60%);
+    position:relative;
+    top:-178vh;
+    left:1.55vw;
+}
+.top4{
+    width:6%;
+    height:15vh;
+    background:rgba(122,121,118,0.3);
+    clip-path: polygon(22% 80%, 65% 0%,100% 60%);
+    position:relative;
+    top:-178vh;
+    left:10vw;
+    transform:rotateY(180deg);
+}
+.wrap9{
+    display: flex;
+}
+.top5{
+    width:5%;
+    height:15vh;
+    background: rgba(122,121,118,0.7);
+    clip-path: polygon(40% 100%,72% 0%,87% 20%);
+    position:relative;
+    top:-196vh;
+    left:1.1vw;
+}
+.top6{
+    width:5%;
+    height:15vh;
+    background: rgba(122,121,118,0.7);
+    clip-path: polygon(40% 100%,72% 0%,87% 20%);
+    position:relative;
+    top:-196vh;
+    left:12.4vw;
+    transform:rotateY(180deg);
 }
